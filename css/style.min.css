@@ -6,7 +6,7 @@ html body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 350px;
   color: #000;
-  background-color: #cbc0d3;
+  background-color: #f34949;
 }
 
 html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
@@ -216,8 +216,8 @@ a:hover {
 }
 
 .hero-info li {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .hero-info .lnr {
@@ -231,6 +231,24 @@ a:hover {
   height: 110px;
 }
 
+.lnr-chevron-right:before {
+  color: white;
+  font-weight: bold;
+}
+
+.lnr-chevron-left:before {
+  color: white;
+  font-weight: bold;
+}
+
+.testi-text {
+  font-weight: bolder;
+}
+
+.testi-author {
+  font-style: italic;
+}
+
 .hero-carousel .owl-prev, .hero-carousel .owl-next {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,11 +259,11 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #cbc0d3;
+  background-color: #f34949;
 }
 
 .hero-carousel .owl-prev {
-  border-right: 1px solid #f7f8f9;
+  border-right: 2px solid #f7f8f9;
 }
 
 .hero-carousel .owl-nav {
@@ -291,8 +309,8 @@ a:hover {
 
 .videonovedad {
   margin-top: 50px;
-  height: 400px;
-  width: 80%;
+  height: 500px;
+  width: 75%;
 }
 
 /*============================
@@ -339,7 +357,7 @@ a:hover {
 ============================*/
 .section__cardteam--animacion {
   position: relative;
-  border: solid 7px #cbc0d3;
+  border: solid 7px #f34949;
 }
 
 .section__cardteam--animacion:hover .section__cardteam--social {

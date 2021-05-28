@@ -3,7 +3,7 @@ $letra: 'Josefin Sans', sans-serif;
 $fuente: 350px;
 $color: #f34949;
 $colorhov: #e22104;
-$colorf:#cbc0d3;
+$colorf:#f34949;
 $margen: 40px;
 
 html {
@@ -74,7 +74,7 @@ a:hover {
   align-items: center; }
   .btn-icon .lnr {
     font-size: 30px;
-    margin-right: 10px; }
+    margin-right: 10px;}
 
 .boxed-page {
   position: relative;
@@ -176,8 +176,8 @@ a:hover {
     .hero-info {
       padding-top: 140px; } }
   .hero-info li {
-    padding-right: 15px;
-    padding-left: 15px; }
+    padding-right: 0px;
+    padding-left: 0px; }
   .hero-info .lnr {
     display: block;
     font-size: 32px;
@@ -187,6 +187,22 @@ a:hover {
   width: 110px;
   height: 110px; }
 
+  .lnr-chevron-right:before {
+    color: white;
+    font-weight: bold;
+  }
+  .lnr-chevron-left:before {
+    color: white;
+    font-weight: bold;
+  }
+  .testi-text{
+    font-weight: bolder;
+  
+  }
+  .testi-author{
+    font-style: italic;
+  }
+
 .hero-carousel .owl-prev, .hero-carousel .owl-next {
   display: flex;
   align-items: center;
@@ -194,7 +210,7 @@ a:hover {
   background-color: $colorf; }
 
 .hero-carousel .owl-prev {
-  border-right: 1px solid #f7f8f9; }
+  border-right: 2px solid #f7f8f9; }
 
 .hero-carousel .owl-nav {
   display: flex;
@@ -225,8 +241,9 @@ a:hover {
 
   .videonovedad{
     margin-top: 50px;
-    height: 400px;
-    width: 80%;
+    height: 500px;
+    width: 75%;
+    
   }
 
 /*============================
