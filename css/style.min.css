@@ -215,6 +215,12 @@ a:hover {
   }
 }
 
+@media (max-width: 450px) {
+  .hero-info {
+    display: none !important;
+  }
+}
+
 .hero-info li {
   padding-right: 0px;
   padding-left: 0px;
@@ -307,12 +313,6 @@ a:hover {
   margin-bottom: 30px;
 }
 
-.videonovedad {
-  margin-top: 50px;
-  height: 500px;
-  width: 75%;
-}
-
 /*============================
 =            MENU            =
 ============================*/
@@ -324,6 +324,7 @@ a:hover {
 .section__card--border {
   border: black groove 1px;
   border-color: #f34949;
+  margin: 5px;
 }
 
 /*=====  End of MENU  ======*/
@@ -349,6 +350,11 @@ a:hover {
 .overlay .section-content {
   position: relative;
   z-index: 1;
+  margin: 5px;
+}
+
+.videonovedad {
+  margin-top: 35px;
 }
 
 /*=====  End of OVERLAY  ======*/

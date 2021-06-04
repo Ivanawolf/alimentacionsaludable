@@ -175,6 +175,11 @@ a:hover {
   @media (min-width: 1420px) {
     .hero-info {
       padding-top: 140px; } }
+  @media (max-width: 450px) {
+    .hero-info {
+      display: none !important;
+    } }
+  
   .hero-info li {
     padding-right: 0px;
     padding-left: 0px; }
@@ -239,12 +244,7 @@ a:hover {
 .section__bottom--margen {
   margin-bottom: $margen - 10; }
 
-  .videonovedad{
-    margin-top: 50px;
-    height: 500px;
-    width: 75%;
-    
-  }
+ 
 
 /*============================
 =            MENU            =
@@ -254,6 +254,7 @@ a:hover {
 .section__card--border {
   border: black groove 1px;
   border-color: $color;
+  margin: 5px;
 }
 
 
@@ -280,7 +281,13 @@ a:hover {
 
 .overlay .section-content {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin: 5px;
+ }
+ .videonovedad {
+   margin-top: 35px;
+
+ }
 
 /*=====  End of OVERLAY  ======*/
 /*============================
@@ -486,5 +493,6 @@ border:solid 7px $colorf }
     height: 90px; }
   .img-2 {
     height: 500px; } }
+
 
 /*=====  End of RESPONSIVE  ======*/
